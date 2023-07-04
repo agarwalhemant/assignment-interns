@@ -7,7 +7,7 @@ app.get('/', (_req, res) => {
   res.end('Hello World!');
 });
 
-app.listen(port, (err: Error) => {
-  if (err) throw err;
+app.listen(port, () => {
+  //if (err) throw err;
   console.log(`Ready on port ${port}`);
 });
