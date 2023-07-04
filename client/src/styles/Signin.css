@@ -1,0 +1,53 @@
+.signin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.signinbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signinimg
+{
+  display: flex;
+  width: 300px;
+  height: 300px;
+  float: left;
+}
+#head{
+  font-size: 22px;
+}
+.text{
+  color: #3A244A;
+}
+#orange{
+  color: #D72638;
+}
+input{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+.btn1{
+  margin-top: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #3A244A;
+  width: 180px;
+  border-radius: 6px;
+  padding: 4px;
+}
+#btn2{
+  margin-top: 10px;
+  color: #3A244A;
+  font-weight: bold;
+  background-color: #ffffff;
+  border: 1px solid #3A244A;
+  width: 180px;
+  border-radius: 6px;
+  padding: 4px;
+  margin-top: 10px;
+}
